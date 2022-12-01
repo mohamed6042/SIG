@@ -1,7 +1,9 @@
 model\LineData.class
 view\FrameOfInvoice.class
 controller\Controllers.class
+model\LineTableModel.class
 view\InvoiceDialouge.class
+model\InvoiceTableModel.class
 view\FrameOfInvoice$1.class
 view\LineDialouge.class
 model\InvoiceData.class

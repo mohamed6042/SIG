@@ -58,4 +58,12 @@ public class LineData {
     }
     
     
+    
+
+    public String getCSV() {
+                return invoiceData.getNum() + "," + itemName + "," + priceOfItem + "," + itemCount;
+
+    }
+    
+    
 }

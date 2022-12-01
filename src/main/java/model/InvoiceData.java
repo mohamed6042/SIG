@@ -68,4 +68,12 @@ public class InvoiceData {
     }
     
     
+
+    
+    public String getCSV() {
+                        return num + "," + date + "," + customer;
+
+    }
+    
+    
 }

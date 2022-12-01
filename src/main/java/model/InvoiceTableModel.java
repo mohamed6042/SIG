@@ -38,8 +38,8 @@ public class InvoiceTableModel extends AbstractTableModel {
         
         switch (columnIndex) {
             case 0: return invoice.getNum();
-            case 1: return invoice.getDate();
-            case 2: return invoice.getCustomer();
+            case 1: return invoice.getCustomer();
+            case 2: return invoice.getDate();
             case 3: return invoice.getInvoicetotal();
             default : return "";
         }
