@@ -111,7 +111,7 @@ public class Controllers implements ActionListener,ListSelectionListener {
                 String customerName = headerSections[2];
                 InvoiceData invoiceData = new InvoiceData(invoiceNum,customerName,date);
                 ArrayOfInvoices.add(invoiceData);
-            } catch (Exception ex) {
+                } catch (Exception ex) {
                         ex.printStackTrace();
                         JOptionPane.showMessageDialog(fInvoice, "Error in line format", "Error", JOptionPane.ERROR_MESSAGE);
                     }

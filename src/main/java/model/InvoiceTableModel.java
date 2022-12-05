@@ -8,7 +8,7 @@ import javax.swing.table.AbstractTableModel;
 public class InvoiceTableModel extends AbstractTableModel {
     
     private ArrayList<InvoiceData>invoiceData;
-    private String[] columns = {"No.", "Date", "Customer", "Total"};
+    private String[] columns = {"No.", "Customer", "Date", "Total"};
 
     public InvoiceTableModel() {
     }
@@ -38,8 +38,8 @@ public class InvoiceTableModel extends AbstractTableModel {
         
         switch (columnIndex) {
             case 0: return invoice.getNum();
-            case 1: return invoice.getCustomer();
-            case 2: return invoice.getDate();
+            case 1: return invoice.getDate();
+            case 2: return invoice.getCustomer();
             case 3: return invoice.getInvoicetotal();
             default : return "";
         }
